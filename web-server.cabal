@@ -21,6 +21,7 @@ executable Web-Server
     -- other-extensions:
     build-depends:      base,
                         servant-server,
+                        warp,
                         wai,
                         text,
                         directory,
